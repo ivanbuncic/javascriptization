@@ -1,0 +1,20 @@
+{
+  "title": "JavaScriptization",
+  "url": "https://javascriptization.com/",
+  "description": "Writing about JavaScript.",
+  "feed": {
+    "subtitle": "Blogging all things JavaScript.",
+    "filename": "feed.xml",
+    "path": "/feed/feed.xml",
+    "id": "https://javascriptization.com/"
+  },
+  "jsonfeed": {
+    "path": "/feed/feed.json",
+    "url": "https://javascriptization.com/feed/feed.json"
+  },
+  "author": {
+    "name": "Ivan Bunčić",
+    "email": "ivan@triplsi.com",
+    "url": "https://javascriptization.com/about-me/"
+  }
+}
