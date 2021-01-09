@@ -1,0 +1,22 @@
+{
+  "name": "javascriptization",
+  "version": "1.0.0",
+  "description": "JavaScriptization ⚡ Blog",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ivanbuncic/javascriptization.git"
+  },
+  "keywords": [
+    "JavaScript"
+  ],
+  "author": "Ivan Bunčić",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ivanbuncic/javascriptization/issues"
+  },
+  "homepage": "https://github.com/ivanbuncic/javascriptization#readme"
+}
