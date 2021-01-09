@@ -2,9 +2,9 @@
 permalink: /tags/
 layout: layouts/home.njk
 ---
-<h1>Tags</h1>
+<h1 class="text-6xl font-semibold mb-10 mt-10">Tags</h1>
 
 {% for tag in collections.tagList %}
   {% set tagUrl %}/tags/{{ tag }}/{% endset %}
-  <a href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
+  <a  class="text-md post-tag bg-red-600 text-sm font-normal text-white p-1 rounded-sm" href="{{ tagUrl | url }}" class="post-tag">{{ tag }}</a>
 {% endfor %}
