@@ -1,12 +1,12 @@
 ---
 layout: layouts/base.njk
-templateClass: tmpl-post
+templateClass: mb-10 mx-auto max-w-screen-lg
 ---
-<h1 class="text-6xl font-semibold mb-5 mt-10">{{ title }}</h1>
+<h1 class="text-6xl font-semibold mb-10 mt-10">{{ title }}</h1>
 
 {{ content | safe }}
 
-<hr>
+<hr class="mt-10">
 <ul>
   {%- set nextPost = collections.posts | getNextCollectionItem(page) %}
   {%- if nextPost %}<li>Next: <a href="{{ nextPost.url | url }}">{{ nextPost.data.title }}</a></li>{% endif %}
