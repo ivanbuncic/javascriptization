@@ -19,7 +19,10 @@ var stringy = 'Hi I\'m stringy';
 
 var stringy2 = "Hy I'm stringy2";
 
-var stringy3 = `String that has special powers, I could dinamically embed whatever I want, I could write multi rows,  number from above ${number} or stringy "${stringy}". I could even calculate inside of it, like number * 2 = ${ number * 2 }`;
+var stringy3 = `String that has special powers, I could 
+dinamically embed whatever I want, I could write multi rows,  
+number from above ${number} or stringy "${stringy}". I could 
+even calculate inside of it, like number * 2 = ${ number * 2 }`;
 console.log(stringy3);
 // Creating a varibale with let keyword
 
