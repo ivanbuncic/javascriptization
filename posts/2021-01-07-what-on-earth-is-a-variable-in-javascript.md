@@ -8,6 +8,10 @@ layout: layouts/post.njk
 
 ### Drawer or something else?
 
+In this post I'll try to explain myself what on Earth are variables in JavaScript. For quite a long time I didn't realize what could be put in these small drawers of data.
+
+Everything is wranging data. Let's see what can and shoud we put in variables and what are subtle differences.
+
 ``` js
 // Creating a variable with var keyword
 
